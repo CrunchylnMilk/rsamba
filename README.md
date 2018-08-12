@@ -1,6 +1,4 @@
 # rsamba
-Custom build of Samba for R.
-
 A security focused release of Samba, meant for simple file sharing - custom for R.
 
 Tested security configuration:
@@ -20,3 +18,7 @@ smbpasswd -U samba
 
 to mount to a folder (requires cifs-utils):
 sudo mount -t cifs //localhost/samba /tmpfs -o uid=id -u,gid=id -g,username=samba
+
+
+
+Container version: 1.1.2
